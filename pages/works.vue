@@ -1,3 +1,3 @@
 <template>
-  <v-container>History</v-container>
+  <v-container>History OCHINCHIN</v-container>
 </template>

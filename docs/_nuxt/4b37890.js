@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{374:function(n,e,t){"use strict";t.r(e);var r=t(85),o=t(111),c=t.n(o),l=t(343),component=Object(r.a)({},(function(){var n=this,e=n.$createElement;return(n._self._c||e)("v-container",[n._v("History OCHINCHIN")])}),[],!1,null,null,null);e.default=component.exports;c()(component,{VContainer:l.a})}}]);

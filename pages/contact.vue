@@ -1,3 +1,3 @@
 <template>
-  <v-container>Contanct</v-container>
+  <v-container>Contanct test</v-container>
 </template>

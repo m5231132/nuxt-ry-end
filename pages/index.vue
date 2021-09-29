@@ -1,3 +1,3 @@
 <template>
-  <v-img :src="require('@/assets/img/usamaru.jpg')"></v-img>
+  <v-container>Test</v-container>
 </template>
