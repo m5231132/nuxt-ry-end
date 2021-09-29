@@ -52,7 +52,7 @@ export default {
       ],
       right: true,
       rightDrawer: false,
-      title: "テスト中"
+      title: "~テスト中~"
     };
   }
 };
