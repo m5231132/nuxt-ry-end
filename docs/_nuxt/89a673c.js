@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{374:function(n,t,e){"use strict";e.r(t);var c=e(85),o=e(111),r=e.n(o),l=e(343),component=Object(c.a)({},(function(){var n=this,t=n.$createElement;return(n._self._c||t)("v-container",[n._v("Contanct test a")])}),[],!1,null,null,null);t.default=component.exports;r()(component,{VContainer:l.a})}}]);

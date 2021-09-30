@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar :clipped-left="clipped" fixed app>
-      <v-toolbar-title v-text="title" />
+      <v-toolbar-title v-text="titleName" />
       <v-spacer />
       <v-btn icon @click.stop="rightDrawer = !rightDrawer">
         <v-icon>mdi-menu</v-icon>
@@ -13,7 +13,7 @@
       </v-container>
     </v-main>
     <v-navigation-drawer v-model="rightDrawer" :right="right" temporary fixed>
-      <v-list>
+      <v-list shaped>
         <v-list-item
           v-for="(item, i) in items"
           :key="i"
@@ -54,6 +54,22 @@ export default {
       rightDrawer: false,
       title: "~テスト中~"
     };
+  },
+  computed: {
+    titleName() {
+      switch (this.$route.name) {
+        case "index":
+          return "Abount me";
+        case "account":
+          return "Account";
+        case "works":
+          return "Works";
+        case "contact":
+          return "Contact";
+        default:
+          break;
+      }
+    }
   }
 };
 </script>
